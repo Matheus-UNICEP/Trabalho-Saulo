@@ -1,0 +1,9 @@
+echo "# Trabalho-Saulo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Matheus-UNICEP/Trabalho-Saulo.git
+git config --global user.name "Matheus-UNICEP"
+git config --global user.email "matheusunicep05@gmail.com"
+git push -u origin main
